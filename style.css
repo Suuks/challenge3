@@ -1,0 +1,129 @@
+body {background: rgb(40,40,40);
+background: linear-gradient(180deg, rgba(40,40,40,1) 0%, rgba(98,118,182,1) 100%, rgba(174,120,222,1) 100%);
+ background-repeat: no-repeat;
+ background-color: #6276b6;
+}
+
+
+#map {
+height: 250px;
+width: 250px;
+
+}
+#earth {height: 250px;
+width:250px;
+}
+
+main {display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin-top: 10%;}
+
+div {
+align-self: center;
+border-radius: 26px;
+margin-bottom: 10%;
+}
+
+h1 {font-family: Roboto, sans-serif;
+color: white;
+margin-bottom: 5%;
+text-align:center;
+font-size: 12pt;}
+
+
+img {border-radius: 20px;
+z-index: 1;}
+
+
+@media only screen and (min-width: 600px) /*tablet*/{
+	
+#map {
+height: 500px;
+width: 500px;}
+
+#earth { height: 500px;
+width: 500px;}
+
+
+main {display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin-top: 10%;}
+
+div {
+align-self: space-between;
+border-radius: 20px;
+display: flex;
+flex-direction: row;}
+
+h1 {font-family: Roboto, sans-serif;
+font-size: 26pt;
+margin-bottom: 5%;
+text-align:center;}
+
+
+img {border-radius: 20px;}
+
+}
+
+@media only screen and (min-width: 1024px) /*laptop*/ {
+	#map {
+height: 500px;
+width: 500px;
+}
+
+#earth { height: 500px;
+width: 500px;
+}
+
+main {display: flex;
+flex-direction: row;
+justify-content: space-evenly;}
+
+div {
+align-self: space-between;
+border-radius: 26px;
+display: flex;
+flex-direction: row;}
+
+h1 {font-family: Roboto, sans-serif;
+font-size: 26pt;
+margin-bottom: 5%;
+text-align:center;
+}
+
+img {border-radius: 20px;}
+
+}
+
+
+@media only screen and (min-width: 1400px) /*pc*/{
+	
+#map {
+height: 500px;
+width: 500px;}
+
+#earth { height: 500px;
+width: 500px;
+justify-content: space-evenly;}
+
+main {display: flex;
+flex-direction: row;
+justify-content: space-evenly;}
+
+div {
+align-self: space-between;
+border-radius: 26px;
+display: flex;
+flex-direction: row;}
+
+h1 {font-family: Roboto, sans-serif;
+margin-bottom: 5%;
+text-align:center;
+font-size: 30pt;
+}
+
+img {border-radius: 20px;}
+
+}
