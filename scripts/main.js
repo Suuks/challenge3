@@ -41,6 +41,8 @@ getAPIdata();
 
 
 //WEATHERBOX API
+//bron: XT2 Challenge 3 - werkcollege 29/3/2022
+//https://openweathermap.org/guide
 
 // Set api token for mapbox
 mapboxgl.accessToken = 'pk.eyJ1Ijoic3V1a3MiLCJhIjoiY2ttdW16emQ3MTJ1eTJwcG14NzdxaGtiMyJ9.R4c-9w-o9b4bkH_Aq8U0Ig';
